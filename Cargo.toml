@@ -1,6 +1,6 @@
 [package]
 name = "npls1"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["89605502155 <ferubko1999@yandex.ru>"]
 description = "Implementation of the N-PLS1 algorithm with Tikhonov L2 regularization in the Rust language"
@@ -9,4 +9,5 @@ repository = "https://github.com/89605502155/npls1"
 readme = "README.md"
 
 [dependencies]
-nalgebra = "0.35.0"
+ndarray = "0.17.2"
+scirs2-linalg = { version = "0.6.0", features = ["linalg"] }
