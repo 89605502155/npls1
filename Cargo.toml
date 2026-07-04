@@ -7,7 +7,7 @@ description = "Implementation of the N-PLS1 algorithm with Tikhonov L2 regulariz
 license = "MIT"
 repository = "https://github.com/89605502155/npls1"
 readme = "README.md"
-keywords = ["chemometrics", "npls1", "multiway", "regression", "npls", "l2"]
+keywords = ["chemometrics", "npls1", "multiway", "regression", "npls"]
 categories = ["science", "mathematics"]
 
 [dependencies]
